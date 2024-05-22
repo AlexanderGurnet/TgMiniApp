@@ -10,7 +10,7 @@ WebApp.ready()
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <TonConnectUIProvider
-      manifestUrl="https://t.me/newtest2df_bot/testAppBotApp/tonconnect-manifest.json"
+      manifestUrl="https://alexandergurnet.github.io/TgMiniApp/tonconnect-manifest.json"
       actionsConfiguration={{
         twaReturnUrl: 'https://t.me/newtest2df_bot/testAppBotApp',
       }}
