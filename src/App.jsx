@@ -27,6 +27,7 @@ function App() {
       {/* Here we add our button with alert callback */}
       <div className="card">
         <TonConnectButton />
+
         {/* <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>Show Alert</button> */}
         <Address />
         <Settings />

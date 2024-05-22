@@ -12,8 +12,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <TonConnectUIProvider
       manifestUrl="https://alexandergurnet.github.io/TgMiniApp/tonconnect-manifest.json"
       actionsConfiguration={{
-        returnStrategy: 'back',
+        twaReturnUrl: 'https://t.me/newtest2df_bot/testAppBotApp',
       }}
+      enableAndroidBackHandler={false}
     >
       <App />
     </TonConnectUIProvider>
