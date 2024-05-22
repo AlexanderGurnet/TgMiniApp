@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <TonConnectUIProvider
       manifestUrl="https://alexandergurnet.github.io/TgMiniApp/tonconnect-manifest.json"
       actionsConfiguration={{
-        twaReturnUrl: 'https://alexandergurnet.github.io/TgMiniApp',
+        twaReturnUrl: 'https://t.me/newtest2df_bot',
       }}
     >
       <App />
