@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import WebApp from '@twa-dev/sdk'
+import { TonConnectButton } from '@tonconnect/ui-react'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +25,8 @@ function App() {
       </div>
       {/* Here we add our button with alert callback */}
       <div className="card">
-        <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>Show Alert</button>
+        <TonConnectButton />
+        {/* <button onClick={() => WebApp.showAlert(`Hello World! Current count is ${count}`)}>Show Alert</button> */}
       </div>
     </>
   )
